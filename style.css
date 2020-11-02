@@ -1,0 +1,93 @@
+:root {
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsla(0, 0%, 81%, 0.5);
+}
+ 
+main {
+    margin: 5em 1em;
+}
+
+.first {
+    background-color:hsl(263, 55%, 52%) ;
+    padding: 2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 15em;
+ }
+.Second {
+    background-color:hsl(217, 19%, 35%) ;
+    padding: 2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+.fourth {
+    background-color: hsl(219, 29%, 14%);
+    padding: 2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.third {
+    background-color: hsl(0, 0%, 100%);
+    padding: 2em;
+    border-radius: 1em;
+}
+.third .bold{
+    color: hsl(217, 19%, 35%);
+}
+
+img {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: hsla(0, 0%, 81%, 0.5);
+}
+
+.name p{
+    color: hsl(0, 0%, 81%);
+}
+.name span{
+    color: hsla(0, 0%, 81%, 0.5);
+    display: block;
+}
+ 
+.bold{
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.down {
+    color:hsla(0, 0%, 81%, 0.5);
+}
+.diff {
+    color: hsl(217, 19%, 35%);
+}
+.third .name p{
+    color: hsl(217, 19%, 35%);
+}
+.third .name p span{
+    color: hsla(217, 19%, 35%, 0.5);
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /*Attribution in the footer*/
+.attribution { 
+font-size: 11px; text-align: center; 
+}
+.attribution a { 
+color: hsl(228, 45%, 44%);
+}
